@@ -53,7 +53,7 @@ cat package.json
 
 output
 
-```
+```json
 {
   "name": "gyak1",
   "version": "1.0.0",
@@ -85,7 +85,7 @@ cat package-lock.json
 
 Készítsünk egy index.js fájlt amibe a következő kódot írjuk:
 
-```
+```javascript
 var colors = require('colors');
 
 console.log('hello'.green);

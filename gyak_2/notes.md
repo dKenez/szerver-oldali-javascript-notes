@@ -10,7 +10,7 @@ npm init
 
 NHozzunk létre egy index.js-t amibe az alábbi kódot másoljuk. Ez lesz az alap express alkalmazás. Látszik, hogy a 3000-es portra raktuk a szervert.
 
-```
+```javascript
 var express = require('express');
 var app = express();
 
